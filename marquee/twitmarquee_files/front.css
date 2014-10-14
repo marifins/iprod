@@ -1,0 +1,222 @@
+body{
+	background-color:#EEE;
+	margin:0;
+	padding:0;
+	font:13px / 20px "Lucida Grande",Arial,Sans-serif;
+	color:#333;
+	}
+
+a{
+	color:#27b;
+	text-decoration:none;
+	}
+a:hover{
+	text-decoration:underline;
+	}
+a img{
+	border-width:0;
+	}
+#header{
+	background:#246;
+	}
+
+#trends{
+	width:980px;
+	margin:0 auto;
+	}
+.background .inner{
+	*z-index:997;
+	_z-index:997;
+	position:relative;
+	}
+
+#trends{
+	*z-index:996;
+	_z-index:996;
+	position:relative;
+	zoom:1;
+	}
+#trends .inner{
+	width:980px;
+	overflow:hidden;
+	zoom:1;
+	position:relative;
+	}
+#trends ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	white-space:nowrap;
+	zoom:1;
+	position:relative;
+	z-index:20;
+	}
+#trends li{
+	margin:0;
+	padding:0;
+	display:inline;
+	zoom:1;
+	}
+#trends em{
+	display:none;
+	zoom:1;
+	}
+#trends a,#trends li.trend-label{
+	padding:8px 4px;
+	}
+#trends li.trend-label{
+	font-size:9px;
+	color:#def;
+	text-transform:uppercase;
+	letter-spacing:.2em;
+	zoom:1;
+	}
+#trends a{
+	display:inline-block;
+	color:#6ac;
+	zoom:1;
+	}
+#trends a:hover,#trends a.active{
+	color:#def;
+	text-decoration:none;
+	zoom:1;
+	}
+#trends .fade{
+	background:url("fade-trends2.png") repeat-y 0 0;
+	position:absolute;
+	display:block;
+	top:0;
+	left:0;
+	width:60px;
+	padding:8px 0;
+	zoom:1;
+	_visibility:hidden;
+	z-index:30;
+	pointer-events:none;
+	}
+#trends .fade-right{
+	background-position:-60px 0;
+	left:auto;
+	/* right:240px; */
+	right:0;
+	
+	}
+#trends dl{
+	margin:0;
+	padding:20px 0;
+	line-height:18px;
+	color:#ace;
+	}
+#trends dt{
+	display:block;
+	margin-bottom:4px;
+	font-size:11px;
+	color:#df6;
+	}
+#trends dt img{
+	vertical-align:middle;
+	}
+#trends dd{
+	margin:0;
+	}
+#trends dd strong{
+	color:#fff;
+	}
+#trend_description p{
+	font-size:1em;
+	}
+.trendtip{
+	background:#fff;
+	position:relative;
+	width:240px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	font-size:11px;
+	line-height:18px;
+	color:#aaa;
+	display:none;
+	margin-top:9px;
+	}
+.trendtip-content{
+	background:#000;
+	padding:10px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	}
+.trendtip-trend{
+	margin-bottom:10px;
+	font:bold 15px "Helvetica Neue",Arial,Sans-serif;
+	color:#fa2;
+	line-height:18px;
+	display:block;
+	}
+ul.trendscontent a:focus,ul.trendscontent a:active,.trendtip-trend:focus,.trendtip-trend:active{
+	outline:0;
+	-moz-outline:0;
+	}
+.trendtip-desc{
+	display:block;
+	color:#ddd;
+	font-size:13px;
+	line-height:18px;
+	}
+.trendtip-source a{
+	color:#6ac;
+	text-decoration:none;
+	}
+.trendtip-pointer{
+	background:url("trendtip-pointer.gif");
+	position:absolute;
+	top:-9px;
+	left:50%;
+	width:17px;
+	height:9px;
+	margin-left:-8px;
+	}
+.aside #trend_description p{
+	color:#666;
+	}
+.aside #what_the_trend{
+	color:#999;
+	font-size:11px;
+	}
+
+
+div.trend-description-container{
+	display:block;
+	}
+.trend-description-container{
+	display:none;
+	margin:0!important;
+	padding:7px 0 0 0!important;
+	}
+#trend_description img{
+	vertical-align:middle;
+	margin:1px 5px 3px;
+	}
+.ie8 #trend_description img{
+	margin-top:-1px;
+	}
+.ie7 #trend_description img{
+	margin-bottom:-2px;
+	}
+#trend_description{
+	display:none;
+	padding:0;
+	line-height:18px;
+	margin:0 0 1em;
+	}
+#trend_description span{
+	color:#777;
+	}
+#trend_description p{
+	margin:0;
+	line-height:18px;
+	font-size:1.1em;
+	color:#333;
+	}
+#trend_description p strong{
+	color:#333;
+	}
